@@ -1,0 +1,382 @@
+/* Shell + Contact elements */
+
+header {
+    background-color: #f1f0ee;
+    font-size: 16px;
+    padding-top: 5px;
+}
+body {
+max-height: 500px;
+background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
+background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    line-height: 160%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #3a4660;
+}
+.navBar {
+    position: relative;
+    top: -60px;
+    right: 10%;
+}
+.navLine {
+    color: #3a4660;
+}
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    top: 8px;
+}
+a {
+    color: #3a4660;
+    padding: 10px;
+    font-size: 20px;
+}
+.navLink {
+    color: #3a4660;
+    text-decoration: none;
+}
+.navContent {
+    position: relative;
+    bottom: 2px;
+}
+li {
+    float: left;
+}
+
+section {
+    width: 65%;
+    margin: auto;
+    background: #f1f0ee;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #f1f0ee;
+    border-width: 1px;
+    position: relative;
+}
+h1 {
+    padding: 25px 25px 25px 40px;
+    background: #3a4660;
+    width: 20%;
+    min-width: 235px;
+    margin-left: 12%;
+    color: #f1f0ee;
+}
+#bio-image {
+        border-radius: 20px;
+        height: 25%;
+        width: 25%;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+.line2 {
+    margin-bottom: 24px;
+    border: 1.5px solid #3a4660;
+    border-radius: 1px;
+}
+.line3 {
+    margin-bottom: 24px;
+    border: 1.5px solid #3a4660;
+    position: relative;
+    top: 8px;
+    border-radius: 1px;
+}
+.par1 .par2 .githubIndex {
+    color: #3a4660;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #f1f0ee;
+    background-color: #3a4660;
+}
+.url-link {
+    font-size: 16px;
+    margin-left: -15px;
+}
+.url-link:hover {
+    color: rgb(21, 21, 192);
+}
+.LinkedinIndex {
+    margin-top: -18px;
+}
+/* CONTACT */
+
+.textBox{
+    width: 98.5%;
+    height: 24px;
+    padding-left: 7px;
+}
+
+.textBoxforMessage {
+    width: 99.7%;
+    height: 180px;
+    margin-top: -15px;
+}
+.button {
+    background-color: #3a4660;
+    color: #f1f0ee;
+    padding: 6px 15px 6px 15px;
+    position: relative;
+    top: 10px;
+    width: 80px;
+}
+.form {
+    margin-top: -15px;
+}
+
+
+/* PORTFOLIO/GALLERY */
+
+#ball-Project-image {
+    width: 30%;
+    height: 30%;
+}
+
+#penguin-Project-image {
+    margin-left: -10px;
+    width: 30%;
+    margin-top: -50px;
+    height: 210px;
+}
+.ballLabel {
+    background-color: #3a4660;
+    color: #f1f0ee;
+    text-align: center;
+    vertical-align: middle;
+    width: 30%;
+    height: 7%;
+    position: relative;
+    bottom: 73px;
+    line-height: 40px;
+}
+.penguinLabel {
+    background-color: #3a4660;
+    color: #f1f0ee;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 30.0%;
+    height: 50%;
+    position: relative;
+    bottom: 73px;
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .list {
+        position: relative;
+        top: 10px;
+        left: 1px;
+    }
+    a {
+        font-size: 20px;
+        padding: 6px;
+    }
+    h1 {
+        padding: 22px 25px 22px 35px;
+        width: 20%;
+        min-width: 210px;
+        font-size: 30px;
+    }
+    #penguin-Project-image {
+        height: 160px;
+        margin-left: -5px;
+    }
+    .ballLabel {
+        line-height: 30px;
+        bottom: 64px;
+    }
+    .penguinLabel {
+        line-height: 30px;
+        bottom: 64px;
+    }
+    .url-link {
+        margin-left: -9px;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    #penguin-Project-image {
+        height: 140px;
+    }
+    .ballLabel {
+        line-height: 30px;
+        bottom: 62px;
+    }
+    .penguinLabel {
+        line-height: 30px;
+        bottom: 62px;
+        width: 30.2%;
+    }
+    a {
+        font-size: 19px;
+        padding: 6px;
+    }
+    h1 {
+        padding: 20px 22px 20px 20px;
+        width: 19%;
+        min-width: 170px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #penguin-Project-image {
+        height: 130px;
+    }
+    a {
+        font-size: 18px;
+        padding: 6px;
+    }
+    h1 {
+        padding: 16px 15px 16px 18px;
+        width: 19%;
+        min-width: 160px;
+        font-size: 24px;
+    }
+    .list {
+        position: relative;
+        top: 15px;
+        left: -2px;
+    }
+    .ballLabel {
+        bottom: 62px;
+    }
+    .penguinLabel {
+        bottom: 62px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    a {
+        font-size: 14px;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 17px;
+        width: 15%;
+        padding: 7px 1px 7px 12px;
+        min-width: 123px;
+    }
+    .navBar {
+        top: -50px;
+    }
+    #penguin-Project-image {
+        height: 98px;
+        margin-left: -5px;
+    }
+    .ballLabel {
+        line-height: 25px;
+        bottom: 52px;
+    }
+    .penguinLabel {
+        line-height: 25px;
+        bottom: 52px;
+        width: 30%;
+    }
+    .list {
+        position: relative;
+        top: 15px;
+        left: -2px;
+    }
+    .par1 {
+        font-size: 14px;
+    }
+    .par2 {
+        font-size: 14px;
+    }
+    .par3 {
+        font-size: 14px;
+    }
+    .githubIndex {
+        font-size: 14px;
+    }
+    .LinkedinIndex {
+        font-size: 14px;
+    }
+    .url-link {
+        font-size: 14px;
+        margin: -7px;
+    }
+    .name {
+        font-size: 22px;
+    }
+    footer {
+        margin-top: 240px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 12px;
+        width: 10%;
+        padding: 4px 0 4px 8px;
+        min-width: 86px;
+    }
+    .list {
+        position: relative;
+        top: 20px;
+        left: -25px;
+    }
+    .clearfix {
+        width: 60%;
+        position: relative;
+        right: 3%;
+    }
+    #penguin-Project-image {
+        height: 62px;
+        margin-left: -5px;
+        margin-top: -40px;
+    }
+    .ballLabel {
+        line-height: 20px;
+        bottom: 42px;
+    }
+    .penguinLabel {
+        line-height: 20px;
+        bottom: 42px;
+    }
+    .par1 {
+        font-size: 12px;
+    }
+    .par2 {
+        font-size: 12px;
+    }
+    .par3 {
+        font-size: 12px;
+    }
+    .githubIndex {
+        font-size: 12px;
+    }
+    .LinkedinIndex {
+        font-size: 12px;
+    }
+    .url-link {
+        font-size: 12px;
+        margin: -7px;
+    }
+    .name {
+        font-size: 20px;
+    }
+}
