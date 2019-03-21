@@ -46,6 +46,9 @@ a {
     color: #3a4660;
     text-decoration: none;
 }
+.navLink:hover {
+    color: rgb(22, 91, 155);
+}
 .navContent {
     position: relative;
     bottom: 2px;
@@ -106,7 +109,7 @@ footer {
 }
 .url-link {
     font-size: 16px;
-    margin-left: -15px;
+    margin-left: -11px;
 }
 .url-link:hover {
     color: rgb(21, 21, 192);
