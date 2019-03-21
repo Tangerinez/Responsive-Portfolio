@@ -71,13 +71,19 @@ section {
     position: relative;
 }
 h1 {
-    padding: 25px 25px 25px 40px;
+    padding: 25px 40px 25px 40px;
     background: #3a4660;
     width: 20%;
     min-width: 235px;
     margin-left: 12%;
     color: #f1f0ee;
+    font-size: 36px;
 }
+
+#full-name {
+    padding: 0;
+}
+
 #bio-image {
         border-radius: 20px;
         height: 25%;
